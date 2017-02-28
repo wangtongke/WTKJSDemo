@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F54025F81E63B5910085A999 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F54025F71E63B5910085A999 /* main.m */; };
+		F54025FB1E63B5910085A999 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F54025FA1E63B5910085A999 /* AppDelegate.m */; };
+		F54025FE1E63B5910085A999 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54025FD1E63B5910085A999 /* ViewController.m */; };
+		F54026011E63B5910085A999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54025FF1E63B5910085A999 /* Main.storyboard */; };
+		F54026031E63B5910085A999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54026021E63B5910085A999 /* Assets.xcassets */; };
+		F54026061E63B5910085A999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54026041E63B5910085A999 /* LaunchScreen.storyboard */; };
+		F54026111E63B5920085A999 /* WTKJSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54026101E63B5920085A999 /* WTKJSDemoTests.m */; };
+		F540261C1E63B5920085A999 /* WTKJSDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F540261B1E63B5920085A999 /* WTKJSDemoUITests.m */; };
+		F540262A1E63B5E70085A999 /* jsDemo.html in Resources */ = {isa = PBXBuildFile; fileRef = F54026291E63B5E70085A999 /* jsDemo.html */; };
+		F540262D1E63B6AC0085A999 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F540262C1E63B6AC0085A999 /* TwoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F540260D1E63B5920085A999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54025EB1E63B5910085A999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F54025F21E63B5910085A999;
+			remoteInfo = WTKJSDemo;
+		};
+		F54026181E63B5920085A999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54025EB1E63B5910085A999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F54025F21E63B5910085A999;
+			remoteInfo = WTKJSDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F54025F31E63B5910085A999 /* WTKJSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTKJSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54025F71E63B5910085A999 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F54025F91E63B5910085A999 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F54025FA1E63B5910085A999 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F54025FC1E63B5910085A999 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F54025FD1E63B5910085A999 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F54026001E63B5910085A999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F54026021E63B5910085A999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F54026051E63B5910085A999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F54026071E63B5910085A999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F540260C1E63B5920085A999 /* WTKJSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKJSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54026101E63B5920085A999 /* WTKJSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTKJSDemoTests.m; sourceTree = "<group>"; };
+		F54026121E63B5920085A999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54026171E63B5920085A999 /* WTKJSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKJSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F540261B1E63B5920085A999 /* WTKJSDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTKJSDemoUITests.m; sourceTree = "<group>"; };
+		F540261D1E63B5920085A999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54026291E63B5E70085A999 /* jsDemo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jsDemo.html; sourceTree = "<group>"; };
+		F540262B1E63B6AC0085A999 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		F540262C1E63B6AC0085A999 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F54025F01E63B5910085A999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54026091E63B5920085A999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54026141E63B5920085A999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F54025EA1E63B5910085A999 = {
+			isa = PBXGroup;
+			children = (
+				F54025F51E63B5910085A999 /* WTKJSDemo */,
+				F540260F1E63B5920085A999 /* WTKJSDemoTests */,
+				F540261A1E63B5920085A999 /* WTKJSDemoUITests */,
+				F54025F41E63B5910085A999 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F54025F41E63B5910085A999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F54025F31E63B5910085A999 /* WTKJSDemo.app */,
+				F540260C1E63B5920085A999 /* WTKJSDemoTests.xctest */,
+				F54026171E63B5920085A999 /* WTKJSDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F54025F51E63B5910085A999 /* WTKJSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F54025F91E63B5910085A999 /* AppDelegate.h */,
+				F54025FA1E63B5910085A999 /* AppDelegate.m */,
+				F54025FC1E63B5910085A999 /* ViewController.h */,
+				F54025FD1E63B5910085A999 /* ViewController.m */,
+				F540262B1E63B6AC0085A999 /* TwoViewController.h */,
+				F540262C1E63B6AC0085A999 /* TwoViewController.m */,
+				F54026291E63B5E70085A999 /* jsDemo.html */,
+				F54025FF1E63B5910085A999 /* Main.storyboard */,
+				F54026021E63B5910085A999 /* Assets.xcassets */,
+				F54026041E63B5910085A999 /* LaunchScreen.storyboard */,
+				F54026071E63B5910085A999 /* Info.plist */,
+				F54025F61E63B5910085A999 /* Supporting Files */,
+			);
+			path = WTKJSDemo;
+			sourceTree = "<group>";
+		};
+		F54025F61E63B5910085A999 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F54025F71E63B5910085A999 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F540260F1E63B5920085A999 /* WTKJSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F54026101E63B5920085A999 /* WTKJSDemoTests.m */,
+				F54026121E63B5920085A999 /* Info.plist */,
+			);
+			path = WTKJSDemoTests;
+			sourceTree = "<group>";
+		};
+		F540261A1E63B5920085A999 /* WTKJSDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F540261B1E63B5920085A999 /* WTKJSDemoUITests.m */,
+				F540261D1E63B5920085A999 /* Info.plist */,
+			);
+			path = WTKJSDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F54025F21E63B5910085A999 /* WTKJSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54026201E63B5920085A999 /* Build configuration list for PBXNativeTarget "WTKJSDemo" */;
+			buildPhases = (
+				F54025EF1E63B5910085A999 /* Sources */,
+				F54025F01E63B5910085A999 /* Frameworks */,
+				F54025F11E63B5910085A999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTKJSDemo;
+			productName = WTKJSDemo;
+			productReference = F54025F31E63B5910085A999 /* WTKJSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F540260B1E63B5920085A999 /* WTKJSDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54026231E63B5920085A999 /* Build configuration list for PBXNativeTarget "WTKJSDemoTests" */;
+			buildPhases = (
+				F54026081E63B5920085A999 /* Sources */,
+				F54026091E63B5920085A999 /* Frameworks */,
+				F540260A1E63B5920085A999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F540260E1E63B5920085A999 /* PBXTargetDependency */,
+			);
+			name = WTKJSDemoTests;
+			productName = WTKJSDemoTests;
+			productReference = F540260C1E63B5920085A999 /* WTKJSDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F54026161E63B5920085A999 /* WTKJSDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54026261E63B5920085A999 /* Build configuration list for PBXNativeTarget "WTKJSDemoUITests" */;
+			buildPhases = (
+				F54026131E63B5920085A999 /* Sources */,
+				F54026141E63B5920085A999 /* Frameworks */,
+				F54026151E63B5920085A999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54026191E63B5920085A999 /* PBXTargetDependency */,
+			);
+			name = WTKJSDemoUITests;
+			productName = WTKJSDemoUITests;
+			productReference = F54026171E63B5920085A999 /* WTKJSDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F54025EB1E63B5910085A999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "王同科";
+				TargetAttributes = {
+					F54025F21E63B5910085A999 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F540260B1E63B5920085A999 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F54025F21E63B5910085A999;
+					};
+					F54026161E63B5920085A999 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F54025F21E63B5910085A999;
+					};
+				};
+			};
+			buildConfigurationList = F54025EE1E63B5910085A999 /* Build configuration list for PBXProject "WTKJSDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F54025EA1E63B5910085A999;
+			productRefGroup = F54025F41E63B5910085A999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F54025F21E63B5910085A999 /* WTKJSDemo */,
+				F540260B1E63B5920085A999 /* WTKJSDemoTests */,
+				F54026161E63B5920085A999 /* WTKJSDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F54025F11E63B5910085A999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54026061E63B5910085A999 /* LaunchScreen.storyboard in Resources */,
+				F540262A1E63B5E70085A999 /* jsDemo.html in Resources */,
+				F54026031E63B5910085A999 /* Assets.xcassets in Resources */,
+				F54026011E63B5910085A999 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F540260A1E63B5920085A999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54026151E63B5920085A999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F54025EF1E63B5910085A999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54025FE1E63B5910085A999 /* ViewController.m in Sources */,
+				F54025FB1E63B5910085A999 /* AppDelegate.m in Sources */,
+				F54025F81E63B5910085A999 /* main.m in Sources */,
+				F540262D1E63B6AC0085A999 /* TwoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54026081E63B5920085A999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54026111E63B5920085A999 /* WTKJSDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54026131E63B5920085A999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F540261C1E63B5920085A999 /* WTKJSDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F540260E1E63B5920085A999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F54025F21E63B5910085A999 /* WTKJSDemo */;
+			targetProxy = F540260D1E63B5920085A999 /* PBXContainerItemProxy */;
+		};
+		F54026191E63B5920085A999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F54025F21E63B5910085A999 /* WTKJSDemo */;
+			targetProxy = F54026181E63B5920085A999 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F54025FF1E63B5910085A999 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54026001E63B5910085A999 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F54026041E63B5910085A999 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54026051E63B5910085A999 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F540261E1E63B5920085A999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F540261F1E63B5920085A999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F54026211E63B5920085A999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WTKJSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangtongke.WTKJSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F54026221E63B5920085A999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WTKJSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangtongke.WTKJSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F54026241E63B5920085A999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTKJSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangtongke.WTKJSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTKJSDemo.app/WTKJSDemo";
+			};
+			name = Debug;
+		};
+		F54026251E63B5920085A999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTKJSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangtongke.WTKJSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTKJSDemo.app/WTKJSDemo";
+			};
+			name = Release;
+		};
+		F54026271E63B5920085A999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTKJSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangtongke.WTKJSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTKJSDemo;
+			};
+			name = Debug;
+		};
+		F54026281E63B5920085A999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTKJSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangtongke.WTKJSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTKJSDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F54025EE1E63B5910085A999 /* Build configuration list for PBXProject "WTKJSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F540261E1E63B5920085A999 /* Debug */,
+				F540261F1E63B5920085A999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54026201E63B5920085A999 /* Build configuration list for PBXNativeTarget "WTKJSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54026211E63B5920085A999 /* Debug */,
+				F54026221E63B5920085A999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F54026231E63B5920085A999 /* Build configuration list for PBXNativeTarget "WTKJSDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54026241E63B5920085A999 /* Debug */,
+				F54026251E63B5920085A999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F54026261E63B5920085A999 /* Build configuration list for PBXNativeTarget "WTKJSDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54026271E63B5920085A999 /* Debug */,
+				F54026281E63B5920085A999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F54025EB1E63B5910085A999 /* Project object */;
+}
